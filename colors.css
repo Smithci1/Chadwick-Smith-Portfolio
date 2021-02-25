@@ -1,12 +1,21 @@
+
+
+h1 {
+    color: rgb(247, 246, 243);
+}
+
+
 p1  {
-    color: rgb(80, 66, 69);
+    color: rgb(235, 230, 231);
     font-size: x-large;
+
+
+}
+li {
+    font-size: x-large;
+    font font-family:Aquire;
+    
+}
     
 
-h1  {
 
-    color: darkcyan; }
-    html {
-        background-image: url(https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png);
-    }
-body {background-image:(image.jpg);}
