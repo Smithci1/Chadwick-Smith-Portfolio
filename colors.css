@@ -1,21 +1,85 @@
 
 
 h1 {
-    color: rgb(247, 246, 243);
+    color: black;
+    
 }
 
 
 p1  {
-    color: rgb(235, 230, 231);
+    color: black;
     font-size: x-large;
 
 
 }
 li {
     font-size: x-large;
-    font font-family:Aquire;
+     
+}
+.nav-wrapper {
+    display: flex;
+    font-family: Aquire;
+    justify-content: space-between;
+    color: black;
+    padding: 50px;
+    font-display: bold;
+}
+.left-side {
+    display: flex;
+}
+.nav-wrapper > .left-side > div {
+   margin: 20px;
+   font-size: x-large;
+
+
+
+}
+.container {
+    margin: 5px;
+}
+ 
+.nav-wrapper > .right-side > div {
+    margin: 20px;
+    font-size: xx-large;
+    font-weight: 500;
     
 }
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: medium solid transparent;
+    transition: border-bottom 0.5s;
+    
+}
+.nav-link-wrapper a {
+    color: 8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+   
+.nav-link-wrapper:hover {
+border-bottom: 1px solid rgb(223, 220, 220);
+
+}
+
+  .nav-link-wrapper a:hover {
+      color: rgb(245, 239, 239);
+  }
+  a{
+      color: black;
+  }
+  p {
+      text-align: end;
+  }
+
+
+  
+    
+
+
+
+
+
     
 
 
