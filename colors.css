@@ -1,5 +1,6 @@
 
 
+
 h1 {
     color: black;
     
@@ -58,28 +59,25 @@ li {
 }
    
 .nav-link-wrapper:hover {
-border-bottom: 1px solid rgb(223, 220, 220);
+border-bottom: 1px solid rgb(14, 13, 13);
 
 }
 
   .nav-link-wrapper a:hover {
-      color: rgb(245, 239, 239);
+      color: rgb(230, 17, 17);
   }
   a{
       color: black;
   }
-  p {
-      text-align: end;
+  p > a:hover{
+      border-bottom: black;
+      color: rgb(231, 33, 33);
+      transition: color 0.3;
+  }
+  p > a {
+
   }
 
 
   
     
-
-
-
-
-
-    
-
-
